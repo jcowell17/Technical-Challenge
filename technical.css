@@ -1,6 +1,6 @@
 :root {
     --color-pure-white: #ffffff;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 ::placeholder {
@@ -24,3 +24,49 @@ body {
 #books-img {
     max-width: 100%;
 }
+
+h1 {
+    font-size: 75px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 30px 30px 0 30px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+    padding: 10px 30px 0 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 30px 0 30px;
+    font-weight: 700;
+}
+
+.form-container {
+    font-weight: 700;
+    margin: 0;
+    padding: 30px;
+}
+
+.name-group {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+  
+}
+
+#last-nam-label {
+    align-self: flex-end;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+
+
