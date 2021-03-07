@@ -2,11 +2,13 @@
     --color-pure-white: #ffffff;
     --color-pure-black: #000000;
     --color-dark-grey: #6b6b6bd8;
+    --color-seagreen: #00e78fe7;
     font-family: 'Open Sans', sans-serif;
 }
 
+/* the seagreen color was used to confirm that the placeholder color can indeed be altered (grey was difficult to see).*/
 ::placeholder {
-    color: var(--color-pure-black);
+    color: var(--color-grey);
 }
 
 body {
