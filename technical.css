@@ -1,1 +1,8 @@
+:root {
+    --color-pure-white: #ffffff;
 
+}
+
+::placeholder {
+    color: var(--pure-white);
+}
