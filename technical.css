@@ -6,3 +6,21 @@
 ::placeholder {
     color: var(--pure-white);
 }
+
+body {
+    margin: 0;
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#page-container {
+    margin: 0;
+    max-width: 50%;
+}
+
+#books-img {
+    max-width: 100%;
+}
