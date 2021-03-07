@@ -18,55 +18,55 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eveniet magni ab eos consectetur sunt, eius consequatur vitae dignissimos reiciendis repellat, cupiditate qui necessitatibus voluptatibus minus dolorum modi et? Nihil!</p>
                 <h2>About you</h2>
 
-                <div class="form-container">
-                    <div class="name-group"
+                <div class="name-container">
+                    <div class="name-group">
                         <label id="first-name-label" for="name">First Name</label>
                             <input
                                 type="text"
                                 name="name"
                                 id="name"
-                                class="form-control"
+                                class="name-control"
                                 placeholder="Jane"
                                 required
                             />
                     </div> 
-
-                    <div class="name-group"    
+                    
+                    <div class="name-group"> 
                         <label id="last-name-label" for="name">Last Name</label>
                             <input
                                 type="text"
                                 name="name"
                                 id="name"
-                                class="form-control"
+                                class="name-control"
                                 placeholder="Doe"
                                 required
                             />
                     </div>
+                </div>
+                
+                <div class="form-group">
+                    <label id="dropdown-label" for="book-selection">Type of Book Choice</label>
+                        <select name="book-selection" id="book-selection" class="form-control">
+                            <option value="Hardcover">Hardcover</option>
+                            <option value="Softcover">SoftCover</option>
+                            <option value="e-book">e-book</option>
+                        </select>
+                </div>
 
-                    <div class="form-group">
-                        <label id="dropdown-label" for="book-selection">Type of Book Choice</label>
-                            <select name="book-selection" id="book-selection" class="form-control">
-                                <option value="Hardcover">Hardcover</option>
-                                <option value="Softcover">SoftCover</option>
-                                <option value="e-book">e-book</option>
-                            </select>
-                    </div>
+                <div class="form-group">
+                    <label id="phone-number-label" for="phone-number">Phone Number</label>
+                        <input
+                            type="tel"
+                            name="phone-number"
+                            id="phone-number"
+                            class="form-control"
+                            placeholder="555-555-5555"
+                            required
+                        />
+                </div>
 
-                    <div class="form-group">
-                        <label id="phone-number-label" for="phone-number">Phone Number</label>
-                            <input
-                                type="tel"
-                                name="phone-number"
-                                id="phone-number"
-                                class="form-control"
-                                placeholder="555-555-5555"
-                                required
-                            />
-                    </div>
-
-                    <div class="form-group"
-                        <button type="submit" id="submit-button" class="submit-button">Submit</button>
-                    </div>
+                <div class="form-group">
+                    <button type="submit" id="submit-button" class="submit-button">Send</button>
                 </div>
             </div>  
         </div> 
