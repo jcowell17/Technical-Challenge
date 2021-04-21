@@ -20,7 +20,7 @@ body {
     flex-direction: row;
 }
 
-#page-container {
+.page-container {
     margin: 0;
     max-width: 50%;
 }
@@ -51,7 +51,7 @@ h2 {
     font-weight: 700;
 }
 
-.name-container {
+#name-container {
     font-weight: 700;
     margin: 0;
     padding: 10px 40px 10px 40px;
@@ -68,7 +68,14 @@ h2 {
     width: 48%;
 }
 
-#name {
+#first-name-input {
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 3px;
+}
+
+#last-name-input {
     border: 1px solid;
     border-radius: 5px;
     font-size: 16px;
